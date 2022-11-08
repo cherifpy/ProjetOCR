@@ -4,3 +4,5 @@ class Tesssst:
         self.nom = "cherif"
         self.age = 21
         self.master = "SII"
+
+#TODO: supprimer plustard

@@ -6,11 +6,9 @@ from .testclass import Tesssst
 
 
 def index(request):
-    class_ = Tesssst()
+    
     reponse = {
-        "cherif" :[1,2,3,4,5,6],
-        "yanis" : "Agdlksdbnmfbndfobnkdf",
-        "cls" : class_
+        "message": "Hello OCR!"
     }
     return render(request,'OCRapp/index.html',reponse)
 

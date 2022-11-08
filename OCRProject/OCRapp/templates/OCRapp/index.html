@@ -9,16 +9,8 @@
         <title>OCR</title>
     </head>
     <body>
-        {% include 'OCRapp/navbar.html' %}  
+        {% include 'OCRapp/navbar2.html' %}
+        <h1>{{message}}</h1>
         
-        {% for x in cherif %}
-            <h1>{{x}}</h1>
-        {% endfor %}
-        <ul>
-            <li> {{ cls.nom }}</li>
-            <li> {{ cls.age }}</li>
-            <li> {{ cls.master }}</li>
-        </ul>
-        <h2>{{yanis}}</h2>
     </body>
 </html>
